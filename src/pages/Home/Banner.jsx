@@ -6,7 +6,7 @@ const Banner = () => {
           <img
             src="https://i.postimg.cc/x1t2HJ3P/Whats-App-Image-2023-12-28-at-10-35-49-32252c73.jpg"
             alt=""
-            className="object-cover rounded-full size-72  md:size-96 border-2"
+            className="object-cover rounded-full size-72 border-4 p-2 border-[#8d918b] md:size-96"
           />
         </div>
         <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg space-y-3">
