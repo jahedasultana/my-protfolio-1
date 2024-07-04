@@ -17,10 +17,10 @@ const Banner = () => {
           </h1>
 
           <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4">
-            <button className="btn btn-outline border-[#596475] font-medium rounded-full hover:bg-[#596475]">Download CV</button>
-            <button className="btn text-white font-medium hover:bg-[#140f2d] bg-[#596475] rounded-full py-2">
+            <a target="_blank" href="https://drive.google.com/file/d/1tfkmsdxVIITUD03oakAyv4Y21NrD-LED/view?usp=sharing" className="btn btn-outline border-[#596475] font-medium rounded-full hover:bg-[#596475]">Download CV</a>
+            <a href="#contact" className="btn text-white font-medium hover:bg-[#140f2d] bg-[#596475] rounded-full py-2">
               Contact Info
-            </button>
+            </a>
           </div>
         </div>
       </div>

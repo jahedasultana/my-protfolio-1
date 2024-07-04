@@ -2,7 +2,9 @@
 import emailjs from 'emailjs-com';
 import { useState } from 'react';
 import Swal from 'sweetalert2';
-
+import { FaGithub } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -53,6 +55,13 @@ const Contact = () => {
     <div id='contact' className='my-16'> 
      <p className="text-[#8d918b] text-center font-semibold text-lg">Get in Touch</p>
      <h1 className="text-5xl text-center font-bold mb-6">Contact Me</h1>
+
+    <div className='flex justify-center items-center text-4xl gap-6 my-4'>
+    <a target='_blank'  href="https://github.com/jahedasultana"><FaGithub /></a>
+    <a target='_blank'  href="https://www.facebook.com/profile.php?id=100094120232292"><FaFacebook /></a>
+    <a target='_blank' href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#sent?compose=new"><MdEmail /></a>
+    </div>
+
       <div className="flex justify-center items-center text-[#8d918b]  dark:text-gray-200 w-full mb-4">
         <div className="font-mon p-4 rounded-lg shadow-md w-full sm:w-3/4 border-2 border-[#8d918b]">
          
