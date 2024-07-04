@@ -2,7 +2,7 @@ import React from "react";
 import { MdCastForEducation } from "react-icons/md";
 const AboutMe = () => {
   return (
-    <div className="flex flex-col items-center p-8">
+    <div id="about" className="flex flex-col items-center p-8">
       <p className="text-[#8d918b] font-semibold text-lg">Get To Know More</p>
       <h1 className="text-5xl font-bold mb-6">About Me</h1>
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">

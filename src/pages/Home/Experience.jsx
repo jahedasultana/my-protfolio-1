@@ -10,7 +10,7 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { SiExpress } from "react-icons/si";
 const Experience = () => {
   return (
-    <div className="flex flex-col items-center p-8">
+    <div id='experience' className="flex flex-col items-center p-8">
       <p className="text-[#8d918b] text-lg font-semibold">Explore My</p>
       <h1 className="text-5xl font-bold mb-8">Experience</h1>
       <div className="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8">

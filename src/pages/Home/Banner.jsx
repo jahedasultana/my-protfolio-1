@@ -1,6 +1,6 @@
 const Banner = () => {
   return (
-    <section className="dark:bg-gray-100 dark:text-gray-800">
+    <section className=" dark:text-gray-800">
       <div className="max-w-screen-lg flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-evenly">
         <div className="">
           <img

@@ -3,7 +3,7 @@ import img2 from '/donator.png';
 import img3 from '/Tourists.png';
 const Projects = () => {
   return (
-    <div className='my-10'>
+    <div id='project' className='my-10'>
         <p className='text-[#8d918b] text-lg font-semibold text-center'>Browse My Recent</p>
         <h1 className="text-5xl text-center font-bold mb-8">Projects</h1>
       <div className="grid md:grid-cols-3 gap-4">
