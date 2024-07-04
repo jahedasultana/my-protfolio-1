@@ -1,10 +1,12 @@
+import img3 from '/sathi-sathi.png';
+
 const Banner = () => {
   return (
     <section className=" dark:text-gray-800">
       <div className="max-w-screen-lg flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-evenly">
         <div className="">
           <img
-            src="https://i.postimg.cc/x1t2HJ3P/Whats-App-Image-2023-12-28-at-10-35-49-32252c73.jpg"
+            src={img3}
             alt=""
             className="object-cover rounded-full size-72 border-4 p-2 border-[#8d918b] md:size-96"
           />

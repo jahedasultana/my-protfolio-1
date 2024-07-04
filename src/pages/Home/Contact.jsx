@@ -73,6 +73,7 @@ const Contact = () => {
                   type="text"
                   id="name"
                   name="name"
+                  required
                   className="w-full p-2 border border-gray-300 rounded-md"
                   placeholder="Your Name"
                   value={formData.name}
@@ -98,6 +99,7 @@ const Contact = () => {
                 type="email"
                 id="email"
                 name="email"
+                required
                 className="w-full p-2 border border-gray-300 rounded-md"
                 placeholder="Your Email"
                 value={formData.email}
@@ -109,7 +111,7 @@ const Contact = () => {
               <textarea
                 id="message"
                 name="message"
-                className="w-full p-2 border border-gray-300 rounded-md"
+                className="w-full text-gray-700 p-2 border border-gray-300 rounded-md"
                 rows="4"
                 placeholder="Your Message"
                 value={formData.message}
