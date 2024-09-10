@@ -1,36 +1,4 @@
-// import img3 from '/sathi-sathi.png';
 
-// const Banner = () => {
-//   return (
-//     <section className=" dark:text-gray-800">
-//       <div className="max-w-screen-lg flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-evenly">
-//         <div className="">
-//           <img
-//             src={img3}
-//             alt=""
-//             className="object-cover rounded-full size-72 border-4 p-2 border-[#8d918b] md:size-96"
-//           />
-//         </div>
-//         <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg space-y-3">
-//           <h3 className="text-xl font-semibold text-[#8d918b]">Hello, I'm</h3>
-//           <h1 className="text-5xl font-bold">Jaheda Sultana</h1>
-//           <h1 className="text-3xl text-[#8d918b] font-bold">
-//             Frontend Developer
-//           </h1>
-
-//           <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4">
-//             <a target="_blank" href="https://drive.google.com/file/d/1tfkmsdxVIITUD03oakAyv4Y21NrD-LED/view?usp=sharing" className="btn btn-outline border-[#596475] font-medium rounded-full hover:bg-[#596475]">Download CV</a>
-//             <a href="#contact" className="btn text-white font-medium hover:bg-[#140f2d] bg-[#596475] rounded-full py-2">
-//               Contact Info
-//             </a>
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Banner;
 
 import { FaFacebook, FaGithub } from "react-icons/fa";
 import img3 from "../../assets/sumu.png";
@@ -54,9 +22,6 @@ const Banner = () => {
           <div className="text-4xl text-gray-600 md:text-xl mb-4">
             Hi There,
           </div>
-          {/* <h1 className="text-3xl md:text-4xl font-extrabold mb-4">
-            I Am a Frontend Developer
-          </h1> */}
 
           <div>
           <h2 className="text-3xl text-black font-extrabold">I Am a  <span style={{ color: 'black', fontWeight: 'extrabold', fontSize: 'text-3xl' }}>
@@ -86,7 +51,7 @@ const Banner = () => {
             </a>
             <a
               href="#contact"
-              className="btn text-white font-medium hover:bg-[#41a909] bg-[#7ac74f] rounded-full py-2"
+              className="btn text-white font-medium hover:bg-[#41a909] hover:underline bg-[#7ac74f] rounded-full py-2"
             >
               Contact Info
             </a>
