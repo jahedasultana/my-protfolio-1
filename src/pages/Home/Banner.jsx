@@ -43,7 +43,7 @@ const Banner = () => {
           <div className="flex md:justify-start justify-center items-center gap-4">
             <a
               target="_blank"
-              href="https://drive.google.com/file/d/1tfkmsdxVIITUD03oakAyv4Y21NrD-LED/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Mm64dUldT-JfsAHQUW43Rvxhoa8XeM76/view"
               className="btn btn-outline border-[#7ac74f] font-medium rounded-full hover:bg-[#7ac74f]"
             >
               Download CV
