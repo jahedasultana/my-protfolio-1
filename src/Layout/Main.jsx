@@ -1,6 +1,5 @@
-
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
- import Nav from "../pages/nav";
+import Nav from "../pages/nav";
 import { useEffect } from "react";
 import Footer from "../pages/Footer";
 
