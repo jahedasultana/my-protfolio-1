@@ -1,6 +1,6 @@
-import img1 from '/fitness.png';
-import img2 from '/donator.png';
-import img3 from '/Tourists.png';
+import img1 from '../../assets/Fitness-Tracker.png';
+import img2 from '../../assets/Foods-Project-Home.png';
+import img3 from '../../assets/Real-Estate-Home.png';
 const Projects = () => {
   return (
     <div id='project' className='my-10'>
