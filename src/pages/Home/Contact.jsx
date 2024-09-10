@@ -147,7 +147,7 @@ const ContactCard = () => {
               type="submit"
               className="w-full py-2 px-4  text-white font-bold rounded-md  bg-[#7ac74f] hover:border-2 hover:bg-[#41a909] "
             >
-              Send
+              Send Massage
             </button>
           </form>
         </div>
