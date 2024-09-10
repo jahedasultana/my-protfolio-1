@@ -3,8 +3,18 @@ import { MdCastForEducation } from "react-icons/md";
 const AboutMe = () => {
   return (
     <div id="about" className="flex flex-col items-center p-8">
-      <p className="text-[#8d918b] font-semibold text-lg">Get To Know More</p>
-      <h1 className="text-5xl font-bold mb-6">About Me</h1>
+<p className="text-[#153b01] text-lg font-semibold">Get To Know More</p>
+      <div className="relative mb-6">
+            {/* Background Layer with Blur */}
+            <div className="absolute inset-0 w-[80%] mx-auto h-10 rounded-full bg-[#7ac74f] blur-xl"></div>
+
+            {/* Text Layer */}
+            <div className="relative z-10">
+              <p className="font-bold md:text-5xl text-2xl my-font mb-6">
+              About Me
+              </p>
+            </div>
+          </div>
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
         <div className="flex">
           <div className="text-center md:text-left py-6 px-6 border-2 md:py-10 md:px-20 rounded-md">
