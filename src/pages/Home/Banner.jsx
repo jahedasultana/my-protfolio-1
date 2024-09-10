@@ -32,47 +32,74 @@
 
 // export default Banner;
 
-import { FaGithub } from "react-icons/fa";
+import { FaFacebook, FaGithub } from "react-icons/fa";
 import img3 from "../../assets/sumu.png";
+import { MdEmail } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa6";
+import { Typewriter } from "react-simple-typewriter";
 const Banner = () => {
   return (
     <section className="flex md:h-[550px]  flex-col md:flex-row items-center justify-between p-8 bg-gray-50">
       {/* Left Side */}
 
-      <div className="flex-1 text-center flex-col h-full items-center  justify-center md:space-y-16 space-y-10 md:text-left">
+      <div className="flex-1 text-center flex-col h-full items-center  justify-center md:space-y-16 space-y-8 md:text-left">
         <div className="flex md:justify-start justify-center gap-4">
-          <FaGithub size={24}></FaGithub>
-          <FaGithub size={24}></FaGithub>
-          <FaGithub size={24}></FaGithub>
+        <a target='_blank'  href="https://github.com/jahedasultana"><FaGithub size={24}/></a>
+        <a target='_blank'  href="https://www.facebook.com/profile.php?id=100094120232292"><FaFacebook size={24}/></a>
+        <a target='_blank'  href="https://www.linkedin.com/in/jahedasultana"><FaLinkedin size={24}/></a>
+        <a target='_blank'  href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#sent?compose=new"><MdEmail size={24}/></a>
+        
         </div>
         <div>
-          <div className="text-4xl md:text-3xl font-bold mb-4">
-            👋 Hi There,
+          <div className="text-4xl text-gray-600 md:text-xl mb-4">
+            Hi There,
           </div>
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">
-            I Am a Developer
-          </h1>
+          {/* <h1 className="text-3xl md:text-4xl font-extrabold mb-4">
+            I Am a Frontend Developer
+          </h1> */}
+
+          <div>
+          <h2 className="text-3xl text-black font-extrabold">I Am a  <span style={{ color: 'black', fontWeight: 'extrabold', fontSize: 'text-3xl' }}>
+          <Typewriter
+            words={['Frontend Developer','React JS Developer']}
+            loop={1000000}
+            cursor
+            cursorStyle='_'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+            
+          />
+        </span></h2>
+
+          </div>
           <p className="text-gray-600 mb-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            fringilla pretium lacus, eu luctus neque ultricies a.
+          I am a dedicated frontend web developer with a passion for creating dynamic and responsive web applications.My contact information is provided below.
           </p>
-          <div className="flex gap-4">
-            <button className="bg-[#7ac74f] text-white font-semibold py-2 px-6 rounded hover:bg-yellow-600 transition duration-300">
-              More About Me
-            </button>
-            <button className="bg-[#7ac74f] text-white font-semibold py-2 px-6 rounded hover:bg-yellow-600 transition duration-300">
-              More About Me
-            </button>
+          <div className="flex md:justify-start justify-center items-center gap-4">
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1tfkmsdxVIITUD03oakAyv4Y21NrD-LED/view?usp=sharing"
+              className="btn btn-outline border-[#7ac74f] font-medium rounded-full hover:bg-[#7ac74f]"
+            >
+              Download CV
+            </a>
+            <a
+              href="#contact"
+              className="btn text-white font-medium hover:bg-[#41a909] bg-[#7ac74f] rounded-full py-2"
+            >
+              Contact Info
+            </a>
           </div>
         </div>
-        <div className="flex gap-6">
+        <div className="md:flex space-y-2  items-center gap-6">
           <div>
-            <h4 className=" text-xl font-bold">Email:</h4>
-            <p>jahedasultana47@gmail.com</p>
+            <h4 className="text-xl font-bold">Email:</h4>
+            <p className="text-gray-600">jahedasultana47@gmail.com</p>
           </div>
           <div>
             <h4 className="text-xl font-bold">Location:</h4>
-            <p>Dhaka, Shariatpur</p>
+            <p className="text-gray-600">Dhaka, Shariatpur</p>
           </div>
         </div>
       </div>
