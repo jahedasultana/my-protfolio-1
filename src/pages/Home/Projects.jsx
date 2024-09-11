@@ -3,7 +3,7 @@ import img2 from "../../assets/Foods-Project-Home.png";
 import img3 from "../../assets/Real-Estate-Home.png";
 const Projects = () => {
   return (
-    <div id="project" className="my-10 ">
+    <div id="project" className=" ">
       <div className="relative flex-col justify-center">
         <div className="absolute inset-0 w-[20%] top-5 mx-auto h-10 rounded-full bg-[#7ac74f] blur-xl"></div>
         <div className="relative">
@@ -14,7 +14,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="mt-16 grid md:grid-cols-3 gap-4">
+      <div className="mt-20 grid md:grid-cols-3 gap-4">
         <div className="border-2 shadow-xl w-full bg-white">
           <figure className="overflow-hidden">
             <img
