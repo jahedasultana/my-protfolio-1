@@ -36,7 +36,7 @@ const Experience = () => {
         <div className="absolute inset-0 w-[20%] top-5 mx-auto h-10 rounded-full bg-[#7ac74f] blur-xl"></div>
         <div className="relative">
           <p className="text-[#153b01] text-center text-lg font-semibold">Explore My</p>
-          <h1 className="md:text-5xl text-2xl text-center my-font font-bold mb-10">Experience</h1>
+          <h1 className="md:text-5xl text-2xl text-center  my-font font-bold mb-10">Experience</h1>
         </div>
       </div>
 

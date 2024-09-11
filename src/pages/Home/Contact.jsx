@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 import { useState } from 'react';
 import Swal from 'sweetalert2';
 
-const ContactCard = () => {
+const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -27,10 +27,10 @@ const ContactCard = () => {
     };
 
     emailjs.send(
-      'service_cdg3nyc', 
-      'template_v4xqtr9', 
+      'service_am6mj3z', 
+      'template_0mn0pkm', 
       emailData,
-      '9E8lqT-Rdu04Oq3kS'
+      '7DgZXfKRKj_4Zvx0q'
     )
     .then(() => {
       Swal.fire({
@@ -47,7 +47,7 @@ const ContactCard = () => {
   };
 
   return (
-    <div id="contract" className="">
+    <div id="contact" className="">
      <div className="relative mt-20 md:mb-2 mb-10 flex-col justify-center">
         <div className="absolute inset-0 w-[20%] top-5 mx-auto h-10 rounded-full bg-[#7ac74f] blur-xl"></div>
         <div className="relative">
@@ -61,15 +61,12 @@ const ContactCard = () => {
     
       
       {/* Left Side: Contact Info */}
-      <div className="text-[#0f0101] bg-[#F9FAFB] h-[450px] rounded-md shadow-md border-2 p-6  w-full lg:w-1/2 lg:mt-[72px]">
+      <div className="text-[#0f0101] bg-[#F9FAFB] h-[450px] rounded-md shadow-md border-2 p-6  w-full lg:w-1/2 lg:mt-16">
         <h2 className="text-2xl font-bold mb-4 text-black/70">Let&apos;s talk!</h2>
         <p className=" mb-4">
         I am a dedicated frontend web developer with a passion for creating dynamic and responsive web applications.My contact information is provided below.
         </p>
-        {/* <div className="flex items-center mb-4">
-          <MdPhone className="text-primary text-xl mr-4" />
-          <p className="">+(684) 555-0102</p>
-        </div> */}
+        
         <div className="flex items-center mb-4">
           <MdEmail className="text-[#7ac74f] text-xl mr-4" />
           <a  href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#sent?compose=new" className=" hover:text-primary">jahedasultana47@gmail.com</a>        </div>
@@ -157,4 +154,4 @@ const ContactCard = () => {
   );
 };
 
-export default ContactCard;
+export default Contact;
