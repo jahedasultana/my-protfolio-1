@@ -71,9 +71,9 @@ const Banner = () => {
       <div className="flex-1 relative mt-8 md:mt-0">
         <div className="bg-cover md:absolute -top-72 left-40 h-auto w-[300px] md:w-[400px] mx-auto ">
           <img
-            src={img3} // Replace this with your image URL
+            src="https://i.postimg.cc/4yy9Rtps/sathi-removebg-preview-1.png" // Replace this with your image URL
             alt="Banner"
-            className="w-full h-full rounded"
+            className="w-full h-full rounded-full"
           />
         </div>
       </div>
