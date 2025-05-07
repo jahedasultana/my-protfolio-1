@@ -16,11 +16,56 @@ const Projects = () => {
       </div>
 
       <div className="mt-20 grid md:grid-cols-3 gap-4">
+       {/* card1 */}
+          <div className="border-2 shadow-xl w-full bg-white">
+          <figure className="overflow-hidden">
+            <img
+              src='https://i.postimg.cc/zBBhbd9r/ecomarce.jpg'
+              className="w-full hover:scale-150 transition-all duration-700 h-[350px] object-cover object-top rounded-t-md"
+              alt=""
+            />
+          </figure>
+          <div className="p-4">
+            <h3 className="text-2xl font-bold text-black/90">Allyfay || e-commerce <span className="text-[12px]">(Team Project)</span></h3>
+
+            <p className="text-[#8d918b] mt-1 mb-1">
+              <span className="font-bold">Technologies: </span>  
+               React.js , swiper, redux, firebase, crypto-js , Express.js , MongoDB
+            </p>
+
+            <div className="flex gap-3 mt-3 md:gap-4 flex-wrap">
+              <a
+                href="https://ecommerce-client-umber.vercel.app/"
+                target="_blank"
+                className="inline-block py-2 px-3 md:px-4 text-sm md:text-base hover:bg-[#41a909] bg-[#7ac74f] text-white rounded-md hover:underline hover:-translate-y-0.5 hover:cursor-pointer"
+              >
+                Live site
+              </a>
+              <a
+                href="https://github.com/git-zahidul-islam/ecommerce-client"
+                target="_blank"
+                className="inline-block py-2 px-3 md:px-4 text-sm md:text-base hover:bg-[#41a909] bg-[#7ac74f] text-white rounded-md hover:underline hover:-translate-y-0.5 hover:cursor-pointer"
+              >
+                Source code
+              </a>
+              {
+                <a
+                  href="https://github.com/git-zahidul-islam/ecommerce-server"
+                  target="_blank"
+                  className="inline-block py-2 px-3 md:px-4 text-sm md:text-base hover:bg-[#41a909] bg-[#7ac74f] text-white rounded-md hover:underline hover:-translate-y-0.5 hover:cursor-pointer"
+                >
+                  Server code
+                </a>
+              }
+            </div>
+          </div>
+        </div>
+
         {/* card1 */}
         <div className="border-2 shadow-xl w-full bg-white">
           <figure className="overflow-hidden">
             <img
-              src={img1}
+              src='https://i.postimg.cc/s1FKJdrS/Health-Track.png'
               className="w-full hover:scale-150 transition-all duration-700 h-[350px] object-cover object-top rounded-t-md"
               alt=""
             />
